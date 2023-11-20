@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #020402;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 93.2vh;
+}
+
+.home_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    line-height: 80%;
+}
+
+.home_img {
+    background-image: url("https://wallpapers.com/images/hd/anime-aesthetic-kimi-no-nawa-7c4f9xr22yehm2pt.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
