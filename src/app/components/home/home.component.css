@@ -1,30 +1,48 @@
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #020402;
-    color: #ffffff;
-}
-
-header {
-    display: flex;
-    flex-direction: row;
-    height: 93.2vh;
-}
-
-.home_text{
+.home_text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    height: 93.2vh;
     line-height: 80%;
+    width: 100%;
+    z-index: 2;
 }
 
-.home_img {
-    background-image: url("https://wallpapers.com/images/hd/anime-aesthetic-kimi-no-nawa-7c4f9xr22yehm2pt.jpg");
-    background-size: cover;
-    background-position: center;
+.logo img {
+    width: 50px;
+    padding: 0 0.5em;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 7;
+    padding: 0 3em;
+}
+
+.about p {
     width: 50%;
 }
 
+article {
+    width: 50%;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 8;
+    padding: 0 3em;
+    width: 50%;
+}
+
+.projects img {
+    width: 600px;
+}
+
+.project {
+    padding: 2em 0;
+}

@@ -1,1 +1,19 @@
-<router-outlet></router-outlet>
+<nav class="navbar">
+    <ul>
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="/projects">Projects</a></li>
+        <li><a routerLink="/about">About</a></li>
+    </ul>
+</nav>
+<main>
+    <router-outlet></router-outlet>
+    <video muted autoplay loop>
+        <source src="\assets\galaxy_stars_background.mp4" type="video/mp4">
+    </video>
+    <div class="capa">
+    </div>
+</main>
+
+<footer>
+    <p>Copyright 2023</p>
+</footer>
